@@ -64,11 +64,10 @@ def rock_paper_scissors(n):
     return play_combos(n, plays)
 
 
-rock_paper_scissors(4)
-# if __name__ == "__main__":
-#     if len(sys.argv) > 1:
-#         num_plays = int(sys.argv[1])
-#         print(rock_paper_scissors(num_plays))
-#     else:
-#         print("Usage: rps.py [num_plays]")
+if __name__ == "__main__":
+    if len(sys.argv) > 1:
+        num_plays = int(sys.argv[1])
+        print(rock_paper_scissors(num_plays))
+    else:
+        print("Usage: rps.py [num_plays]")
 
